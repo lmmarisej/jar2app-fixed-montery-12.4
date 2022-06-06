@@ -15,3 +15,6 @@ chmod -R a+rw $PREFIX/jar2app_basefiles
 cp jar2app $PREFIX
 chmod +x $PREFIX/jar2app
 
+if [ ! -d "/usr/local/bin/python3" ]; then
+  ln -s -f /usr/local/bin/python3 /usr/local/bin/python
+fi
