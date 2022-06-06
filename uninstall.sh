@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -z "$1" ]
   then
-    PREFIX=/usr/bin
+    PREFIX=/usr/local/bin
   else
     PREFIX=$1
 fi
